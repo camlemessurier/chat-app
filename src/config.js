@@ -1,5 +1,5 @@
 module.exports = {
-	apiKey: "AIzaSyDBlchIQk1uIQ_1ZhvUD45NO52FHlIL93c",
+	apiKey: "AIzaSyAJMMMehxd5ksZ0dn4Id-dXFbq3d8TL1A0",
 	authDomain: "chat-app-8af6e.firebaseapp.com",
 	databaseURL: "https://chat-app-8af6e.firebaseio.com",
 	projectId: "chat-app-8af6e",

@@ -13,8 +13,9 @@ const admin = require("firebase-admin");
 admin.initializeApp();
 const db = admin.firestore();
 
-exports.detectEvilUsers = functions.firestore
-	.document("messages/{msgId}")
+exports.detectEvilUsers = functions
+	.region("australia-southeast1")
+	.firestore.document("messages/{msgId}")
 	.onCreate(async (doc, ctx) => {
 		const filter = new Filter();
 		const { text, uid } = doc.data();
