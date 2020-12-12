@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./App.css";
 import config from "./config";
+import logo from "./logo.png";
 
 import firebase from "firebase/app";
 import "firebase/firestore";
@@ -19,6 +20,7 @@ function App() {
 	return (
 		<div className="App">
 			<header>
+				<img src={logo} alt="asd" className="logo" />
 				<h1>Le Messenger</h1>
 				<SignOut />
 			</header>
